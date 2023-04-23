@@ -1,0 +1,31 @@
+a:link{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color:gray;
+}
+
+.parent{
+
+}
+
+.child{
+    background-color: yellow;
+    display: none;
+}
+
+.parent:hover .child{
+    display:block;
+    transition: -0.5;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow ;
+    position: relative;
+    text-align: center;
+}

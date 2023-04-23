@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+h1,
+h2 {
+    font-family: "Satisfy", cursive;
+}
+/* all website */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* parent */
+.header-container{
+    background-color: #e4f9f5;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+/* child */
+.cloud-top{
+    position: absolute;
+    top: 30px;
+    right: 20%;
+}
+
+.cloud-top2{
+    position: absolute;
+    top: 30px;
+    right: 10%;
+}
+
+.cloud-middle{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+.mountain{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 150px;
+    margin: 0px auto; */
+}
+
+h1,h2 {
+    text-align: center;
+    color: #66bfbf;
+}
+h1{
+    font-size: 3em;
+}
+h2 span {text-decoration: underline;}
+/* #66bfbf */
+
+.profile-page{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* top: 100vh; */
+}
+.profile-picture-elipse {
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+  }
+
+.text-introduction {
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h3 {
+    text-align: center;
+    color: #66bfbf;
+    font-size: 40px;
+    font-family: "Arial", cursive;
+    padding: 0,10px;
+}
+h4 {
+        text-align: left;
+        color: #66bfbf;
+        font-size: 25px;
+        font-family: "Arial", cursive;}
+
+.p-center {
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial", cursive;
+        padding-top: 100px;
+    }
+
+.p-left {
+        text-align: left;
+        top: 0;
+        color: #000000;
+        font-size: 20px;
+        font-family: "Arial", cursive;
+    }
+
+.skills-page1{
+            background-color: #ffffff;
+            height: 30vh;
+            width: 100%;
+            position: relative;
+}
+
+.skills-page2{
+    background-color: #ffffff;
+    height: 35vh;
+    width: 100%;
+    position: relative;
+}
+
+.box1{
+    position: absolute;
+    height: 35%;
+    width: 70%;
+    background-color: #ffffff;
+    right: 0;
+    top: 0%;
+}
+
+.skills-page3{
+    background-color: #ffffff;
+    height: 35vh;
+    width: 100%;
+    position: relative;
+}
+.box2{
+    position: absolute;
+    height: 35%;
+    width: 70%;
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+}
+
+.skill2{
+    position: absolute;
+    right: 0%;
+}
+
+
+h3 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 40px;
+                font-family: "Arial", cursive;
+}
+
+.info{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
