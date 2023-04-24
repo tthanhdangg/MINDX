@@ -22,3 +22,9 @@ let num = [3,4,5,6,7,7,3,2,5,6,6,7,8,9,8];
 let num = [4,4,4,7,8,8,8,8,8,9,99,9,9,7,5,43]
 
 // tao 1 gio hang hoa qua co ten qua, mau, noi sx, ngay het han, don vi phan phoi(ten don vi, dia chi dv)
+
+
+for (let i = 0; i < array.length; index++) {
+    const element = array[index];
+    
+}
